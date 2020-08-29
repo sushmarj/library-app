@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+          <table class="table table-bordered table-striped">
+            <tr>
+              <th>Shelf Number</th>
+              <th>Name of Book</th>
+              <th>Author</th>
+              <th>Description</th>
+              <th>Barcode</th>
+              <th>    </th>
+            </tr>
+
+            <tr *ngFor="let l of list">
+              <td>{{l.ShelveNumber}}</td>
+              <td>{{l.NameofBook}}</td>
+              <td>{{l.Author}}</td>
+              <td>{{l.Description}}</td>
+              <td>{{l.ISBNNumber}}</td>
+             <!-- <tr>
+              //<td><button class="btn btn-xs btn-primary" (click)="" > Edit</button></td>
+              //<td><button class="btn btn-xs btn-danger" (click)="" > Delete</button></td>
+             // </tr>--> 
+            </tr>
+          </table>
+          </div>
+          </div>
+          </div>

@@ -1,0 +1,27 @@
+<div class="well">
+<div class="form-group">
+<h2 class="page-header"> Return book form </h2>
+        <label>Shelf Number</label>
+        <input type="text" class="form-control" #ShelvesNUmber formControlName="Shelves Number" required>
+</div>
+<div class="form-group">
+        <label>Name of Book</label>
+        <input type="text" class="form-control" #NameofBook formControlName="Name of Book" required>
+</div>
+<div class="form-group">
+        <label>Employee Id</label>
+        <input type="text" class="form-control" #EmployeeId formControlName="Employee Id" required>
+</div>
+<div class="form-group">
+        <label>Return Date</label>
+        <input type="Date" class="form-control" #ReturnDate formControlName="Return Date" required>
+</div>
+<div class="form-group">
+        <button type="submit" onclick="alert('Successfully Returned')" class="btn btn-info btn-block" test>Return Book</button>
+      </div>
+<!--<div>
+        <button type="submit" [disabled]="!myForm.valid" class="btn btn-info btn-block" 
+        (click)="addUserToService()">Return Book</button>
+      </div>
+-->
+</div>

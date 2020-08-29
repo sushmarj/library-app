@@ -1,0 +1,4 @@
+{
+    "mongoConnectString":"mongodb://localhost:27017/librarydb",
+    "port":3000
+}

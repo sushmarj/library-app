@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+          <table class="table table-bordered table-striped">
+            <tr>
+              <th>Shelf Number</th>
+              <th>Name of Book</th>
+              <th>Employee Id</th>
+              <th>Employee Name</th>
+
+              <th>Phone Number</th>
+            </tr>
+
+            <tr *ngFor="let l of list">
+              <td>{{l.ShelveNumber}}</td>
+              <td>{{l.EmployeeId}}</td>
+              <td>{{l.EmployeeName}}</td>
+              <td>{{l.PhoneNumber}}</td>
+            </tr>
+          </table>
+      </div>
+   </div>
+</div>
