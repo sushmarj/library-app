@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+          <table class="table table-bordered table-striped">
+            <tr>
+              
+              <th>Name of Book</th>
+              <th>Author</th>
+              <th>Edition</th>
+              <th>DVD/CD</th>
+              <th>Date of issue</th>
+              <th>Employee Id</th>
+              <th>Employee Name</th>
+              <th>Employee email</th>
+              <th>Phone Number</th>
+            </tr>
+
+            <tr *ngFor="let l of list">
+              <td>{{l.Nameofbook}}</td>
+              <td>{{l.Author}}</td>
+              <td>{{l.Edition}}</td>
+              <td>{{l.DVDCD}}</td>
+              <td>{{l.Date}}</td>
+              <td>{{l.Employeeid}}</td>
+              <td>{{l.Employeename}}</td>
+              <td>{{l.Employeeemail}}</td>
+              <td>{{l.Phonenumber}}</td>
+            </tr>
+          </table>
+      </div>
+   </div>
+</div>

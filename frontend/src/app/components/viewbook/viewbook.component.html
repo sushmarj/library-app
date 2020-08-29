@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+          <table class="table table-bordered table-striped">
+            <tr>
+              <th>Shelf Number</th>
+              <th>Name of Book</th>
+              <th>Author</th>
+              <th>Edition</th>
+              <th>DVD/CD</th>
+              <th>Description</th>
+              <th>Barcode</th>
+              <th>    </th>
+            </tr>
+
+            <tr *ngFor="let Book of books">
+              <td>{{Book.shelfnumber}}</td>
+              <td>{{Book.Nameofbook}}</td>
+              <td>{{Book.Author}}</td>
+              <td>{{Book.Edition}}</td>
+              <td>{{Book.DVDCD}}</td>
+              <td>{{Book.Description}}</td>
+              <td>{{Book.Barcode}}</td>
+            
+            <td> <button class="btn btn-xs btn-primary" (click)="gotoBookEditComponent(Book.Id)" > Edit</button>
+              <button class="btn btn-xs btn-danger" (click)="deleteBookFromService(books)" > Delete</button>
+             </td>
+            </tr>
+          </table>
+          </div>
+          </div>
+          </div>
