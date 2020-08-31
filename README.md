@@ -1,4 +1,5 @@
 # library-application
+Angular Application
 Demonstration of Website development to understand functionality of front web Simple development process and to learn setting of web servers such MongoDB. Developed the Web site from scratch which contains all information to that as a library must contain, by using React js as front-end
 
 
